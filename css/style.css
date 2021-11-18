@@ -1,3 +1,14 @@
+/* ======== VARIABLES ======== */
+:root {
+  --clr-primary: #CE9797;
+  --clr-primary-lt: #F8BFBF;
+  --clr-secondary: #F96262;
+  --clr-secondary-lt: #EE8C8C;
+  --clr-base: #413A3A;
+  --clr-helper: #FFF5F5;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Josefin Sans', sans-serif;
+}
 /* ========== RESET ========== */
 html {
   font-size: 62.5%;
@@ -9,6 +20,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: var(--ff-primary);
   font-size: 1.6rem;
   line-height: 1.4;
 }
