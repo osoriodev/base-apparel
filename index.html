@@ -12,7 +12,31 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <main class="main"></main>
+    <main class="hero">
+      <picture class="hero__img">
+        <source srcset="./assets/img/hero-desktop.jpg" media="(min-width: 64em)">
+        <img src="./assets/img/hero-mobile.jpg" alt="Woman with orange shirt">
+      </picture>
+      <div class="hero__info">
+        <a class="hero__link" href="#" aria-label="Home">
+          <img src="./assets/img/logo.svg" alt="Base Apparel Logo">
+        </a>
+        <h1 class="hero__title">
+          <span>We're</span>
+          <em>coming soon</em>
+        </h1>
+        <p class="hero__descrip">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <form class="hero__form" action="#">
+          <input class="hero__email" type="email" name="email" placeholder="Email Address">
+          <button class="hero__btn" type="submit" aria-label="Send">
+            <i class="hero__icon"></i>
+          </button>
+        </form>
+      </div>
+    </main>
     <script src="./js/script.js"></script>
   </body>
 </html>
