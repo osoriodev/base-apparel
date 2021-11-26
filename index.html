@@ -13,7 +13,7 @@
   </head>
   <body>
     <main class="hero">
-      <picture class="hero__img">
+      <picture class="hero__banner">
         <source srcset="./assets/img/hero-desktop.jpg" media="(min-width: 64em)">
         <img src="./assets/img/hero-mobile.jpg" alt="Woman with orange shirt">
       </picture>
@@ -31,10 +31,12 @@
         </p>
         <form class="hero__form" action="#">
           <input class="hero__email" type="email" name="email" placeholder="Email Address">
-          <button class="hero__btn" type="submit" aria-label="Send">
-            <i class="hero__icon"></i>
+          <i class="hero__icon hero__icon--error"></i>
+          <button class="hero__btn" type="button" aria-label="Send">
+            <i class="hero__icon hero__icon--arrow"></i>
           </button>
         </form>
+        <p class="hero__note">Please provide a valid email</p>
       </div>
     </main>
     <script src="./js/script.js"></script>
