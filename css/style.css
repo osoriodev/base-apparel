@@ -135,6 +135,9 @@ a {
   border-radius: 3rem;
   background: linear-gradient(135deg, var(--clr-primary-lt), var(--clr-secondary-lt));
 }
+.hero__btn:hover {
+  background: var(--clr-primary-lt);
+}
 .hero__icon {
   display: block;
   background-repeat: no-repeat;
